@@ -1,0 +1,62 @@
+{
+  "Products": [
+    {
+      "id": 1001,
+      "name": "Mobile",
+      "price": 50000,
+      "img": "/images/mobile.jpg"
+    },
+    {
+      "id": 1002,
+      "name": "TV",
+      "price": 60000,
+      "img": "/images/TV.jpg"
+    },
+    {
+      "id": 1003,
+      "name": "HeadPhones",
+      "price": 70000,
+      "img": "/images/headphone.jpg"
+    },
+    {
+      "id": 1004,
+      "name": "Laptop",
+      "price": 80000,
+      "img": "/images/Laptop.jpg"
+    },
+    {
+      "name": "Phone",
+      "price": "30000",
+      "id": 1005,
+      "img": "/images/phone.jpg"
+    }
+  ],
+  "Users": [
+    {
+      "id": 101,
+      "emailId": "satraurvashi99@gmail.com",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": 102,
+      "emailId": "urvashi@gmail.com",
+      "password": "urvashi",
+      "role": "user"
+    },
+    {
+      "id": 103,
+      "emailId": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin"
+    }
+  ],
+  "cart": [
+    {
+      "userId": "102",
+      "productId": 1002,
+      "quantity": 1,
+      "id": 1
+    }
+  ]
+}
